@@ -1,10 +1,10 @@
 #START OF LESSON 1
-
+'''
 #Names of variables and constants are 'identifiers'
 BaseHealth = 100 #Variables are CamelCase
 GRID_SIZE = 7 #Constants are capitalised, this is SNAKE_CASE
 
-#Data types in Python :3
+#Data types in Python:
 #Integer
 Height = 6
 #Float: number with decimal fraction
@@ -48,7 +48,7 @@ elif HowManyHoursOfHomework <=3:
 else:
   print(color.YELLOW + ":nerd:" + color.END)
 
-#iterations: loops
+#iterations - loops - for loops
 for count in range(10):
   print(count)
 input("\n")
@@ -58,6 +58,22 @@ input("\n")
 for count2 in range(2,21,2):
   print(count2)
 
+'''
 #END OF LESSON 1
 
 #START OF LESSON 2
+
+# - A "for" loop has a set amount of times to run
+# - However, a while loop does not, it is indefinite...
+
+#iterations - loops - while loops
+
+GameOver = False
+while GameOver == False:
+  print("Game is still running.")
+  UserChoice = input("Do you want to continue?")
+  if UserChoice.lower() == "n":
+    GameOver = True
+    print ("End of Game")
+
+#subroutines - chunks of code that can be called from the program at any time.
