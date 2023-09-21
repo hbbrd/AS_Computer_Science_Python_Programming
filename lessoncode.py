@@ -62,7 +62,7 @@ for count2 in range(2,21,2):
 #END OF LESSON 1
 
 #START OF LESSON 2
-
+'''
 # - A "for" loop has a set amount of times to run
 # - However, a while loop does not, it is indefinite...
 
@@ -77,3 +77,24 @@ while GameOver == False:
     print ("End of Game")
 
 #subroutines - chunks of code that can be called from the program at any time.
+# - They can either be procedures (printing a set of instructions etc) or functions (returns information to the main program)
+# - Functions have two key identifiers - "Return" and when it is called, it is part of an assignment
+
+####STARTOFPROGRAM###
+
+def PrintName (UserName):
+    print ("Your name is",UserName)
+
+#Main Program
+while True:
+    UserName = input("What is your name?")
+    PrintName(UserName)
+ 
+def UserChoiceFunc():
+    UserChoice = input("Which option would you like? (Choose A-D)")
+return UserChoiceFunc 
+
+
+###ENDOFPROGRAM###
+'''
+#END OF LESSON 2
