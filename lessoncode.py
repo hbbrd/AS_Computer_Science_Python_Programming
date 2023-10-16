@@ -98,3 +98,6 @@ return UserChoiceFunc
 ###ENDOFPROGRAM###
 '''
 #END OF LESSON 2
+
+# START OF LESSON 3
+'''This is a recap of GCSE Stuff.'''
